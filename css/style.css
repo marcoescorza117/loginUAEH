@@ -22,11 +22,12 @@ body{
     background-position: inherit;
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: #800101;
+/*background-color: #841816;*/
+    background-color: #ffcdab;
 }
 
 header{
-    background-color: #800101;
+    background-color: #841816;
 }
 
 .header--container{
@@ -36,9 +37,7 @@ header{
     align-items: center;
 }
 
-.header--container-logo img{
-    width: 180px;
-}
+
 
 .header--container-title{
     color: white;
@@ -48,14 +47,20 @@ header{
     margin-bottom: 5px;
 }
 
+main{
+
+    display: block;
+
+}
+
 .main-section{
     display: flex;
     width: 100%;
     height: 40px;
     justify-content: center;
     align-items: center;
-    margin-top: 100px;
-    margin-bottom: 35px;
+    margin-top: 40px;
+    margin-bottom: 10px;
 }
 
 .main-section-message h1{
@@ -89,7 +94,7 @@ header{
 .form-section-user{
     position: relative;
     margin: 0, auto;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
 }
 
 .form-section-user input{
@@ -101,7 +106,7 @@ header{
     border-style: none;
     border-radius: 9px;
     font-size: 1.8rem;
-    outline-color: #800101;
+    outline-color: #841816;
 }
 
 .form-section-pass input{
@@ -113,14 +118,14 @@ header{
     border-style: none;
     border-radius: 9px;
     font-size: 1.8rem;
-    outline-color: #800101;
+    outline-color: #841816;
     
 
 }
 
 
 .form-section-submit{
-    margin-top: 30px;
+    margin-top: 10px;
     display: flex;
     justify-content: center;
 
@@ -135,7 +140,7 @@ header{
     color: white;
     font-weight: normal;
     font-size: 1.6rem;
-    background-color: #800101;
+    background-color: #841816;
     cursor: pointer;
     opacity: 1;
     transition: transform .2s;
@@ -152,17 +157,18 @@ header{
 
 .section-recovery-pass{
     
-    padding-top: 50px;
+    padding-top: 35px;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: auto;
 }
 
 .section-recovery-container a{
 
     font-size: 1.6rem;
-    color: aliceblue;
+    color: rgb(163, 164, 165);
     font-weight: bold;
     font-family: Helvetica, Arial , sans-serif;
     
@@ -175,32 +181,22 @@ header{
 }
 
 .section-error{
-    margin-top: 50px;
+    margin-top: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.section-error-message{
 
-    background-color:#800101;
-    padding: 10px;
-    border-radius: 5px;
-    
-}
 
-.section-error-message h3{
-    color: white;
-    font-size: 1.7rem;
-    font-family: Helvetica, Arial, sans-serif;
-    font-weight: bold;
-    
-}
+
 footer{
-    background-color: #800101;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #841816;
+    
 }
 
 .footer-text{
@@ -213,10 +209,10 @@ footer{
 }
 
 .footer-text p{
+    text-align: center;
     color: white;
     font-weight: bold;
     font-size: 1.6rem;
     font-family: Helvetica, Arial, sans-serif;
 }
-
 
